@@ -13,7 +13,7 @@ Build a simple Hello World application using Spring Boot and Thymeleaf
 **1. Clone the application**
 
 ```bash
-git clone git@github.com:callicoder/spring-boot-thymeleaf-tour.git
+git clone https://github.com/callicoder/spring-boot-thymeleaf-tour.git
 ```
 
 **2. Build and run the app using maven**
@@ -21,7 +21,7 @@ git clone git@github.com:callicoder/spring-boot-thymeleaf-tour.git
 ```bash
 cd spring-boot-thymeleaf-tour
 mvn package
-thymeleaf-tour-0.0.1-SNAPSHOT.jar
+java -jar target/thymeleaf-tour-0.0.1-SNAPSHOT.jar
 ```
 
 You can also run the app without packaging it using -
